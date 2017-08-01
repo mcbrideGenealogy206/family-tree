@@ -1,0 +1,39 @@
+---
+title: "Family Tree"
+knit: (function(inputFile, encoding) { 
+      out_dir <- '../';
+      rmarkdown::render(inputFile,
+                        encoding=encoding, 
+                        output_file=file.path(dirname(inputFile), out_dir, 'index.html')) })
+output: html_document
+urlcolor: blue
+---
+
+
+This website is intended to serve as a family tree. Below this paragraph you will find links to pedigree trees starting from recent ancestors that are no longer living. Anyone who wishes to may share this family tree by sharing this url https://mcbridegenealogy206.github.io/family-tree/. Please feel free to download this tree to your computer. The files, including censuses, marriage licenses, and more, can be downloaded from the [repository page](https://github.com/mcbrideGenealogy206/family-tree). Questions or comments can be directed to Michael McBride at mcbrideGenealogy206@gmail.com. Any relevant documents or photos would be greatly appreciated as well, and can be scanned and sent. Photos of relatives can be especially hard to find, so please don't hesitate to send me a scan. Down below I will explain in more detail how I organized the tree.
+
+## [Ancestors of Elmer Everett McBride](ElmerAncestorTree/index.html)
+
+
+## Biographies:
+
+I Included bios in pdf form to summarize the information contained in each person's files. In these bios I tried to make as clear as possible where I got each piece of information from. Each bio contains links to immediate family members and sources to my claims, both of which will appear in <span style="color:blue">blue</span>. For more information on links, see the LINKS section. 
+
+#### Immediate Family Section
+If the handwriting on old documents was hard to read, I put a question mark next to my best guess at the hard-to-read part of their name. Two question marks means that I really couldn't read it at all and just went with how Ancestry.com's handwriting recognition software labeled it.
+
+##LINKS:
+
+Links in this family tree will appear in <span style="color:blue">blue</span>. Most of these links will be to documents that I uploaded. Some of them will be to external websites. For cybersecurity reasons I try to make clear when a link will take you to an external website. Occasionally links will break because of something I did. If you find a link that doesn't work, send me and email describing which link won't work and I'll fix it.
+
+## repository:
+
+Documents in the [repository](https://github.com/mcbrideGenealogy206/family-tree) are organized by person. Each person's folder contains any documents I could find relating to that person, and a biography summarizing what I have found.
+
+#### CENSUSES
+
+In order to save memory, I did not want to upload twenty copies of the same census to the tree. To accomplish this, for each census, I only added it to the person listed as head of household. This means that if you are trying to find a census containing a wife or a child, you must go to the father's page. There are exceptions to this rule. For example, Isaac V. McBride was staying with a man named Warner Philip when the 1860 census was taken. Since Mr.Phillip is not part of this family, I included that census in Isaac's file.
+
+#### RMD's file
+
+You can ignore this file. It just contains the markdown files I used to make this pdf and the bio pdf's.

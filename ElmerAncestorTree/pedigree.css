@@ -1,0 +1,7 @@
+body				{ margin: 0; height: 100%; background: #fff; font-family: Helvetica, Arial, sans-serif; }
+canvas				{ background: #fff; margin-top: 20px; }
+
+h1					{ color: #000; letter-spacing: -0.02em; text-align: center; }
+
+div#footer			{ color: #999; font-size: .8em; border-top: solid 1px #bbb; padding-top: 8px; width: 800px; text-align: center; margin: 50px auto 0; }
+div#footer a		{ color: #ccc; }
