@@ -89,10 +89,10 @@ people.push(new person("Elmer Evrett McBride", "m", "", "Imboden, AR", false),//
 	new person("Isaac V McBride", "m", "1842-1913", "Boyle County, Kentucy", true),//3
 	new person("Francis Minton", "f", "", "Tennessee", false),//4
 	new person("John McBride", "m", "1804-1860", "Kentucky", true),//5
-	new person("Olive C Vanarsdall", "f", "1813-1839", "", false),//6
-	new person("Isaac B Vanarsdall", "m", "1787-1866", "Pennsylvania", false),//7
-	new person("Anne Coulter", "f", "", "", false),//8
-	new person("John Coulter", "m", "", "", false),//9
+	new person("Olive C Vanarsdall", "f", "1813-1839", "Kentucky", true),//6
+	new person("Isaac B Vanarsdall", "m", "1786-1866", "Pennsylvania", true),//7
+	new person("Ann Coulter", "f", "1784-?", "Kentucky", true),//8
+	new person("John Coulter", "m", "", "", true),//9
 	new person("Unknown", "f", "", "", false)//10
 );
 

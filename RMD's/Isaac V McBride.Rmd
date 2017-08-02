@@ -16,7 +16,7 @@ knitr::opts_chunk$set(echo=FALSE)
 
 ##Immediate Family
 * Father: [John McBride](../John McBride/Biography.PDF) (b. 1804)
-* Mother: Olive C Vanarsdall
+* Mother: [Olive C Vanarsdall](../Olive C Vanarsdall/Biography.PDF)
 * Step-Mother: Mary J Caldwell
 * Siblings:
     1. Matilda W McBride (b. 1832)

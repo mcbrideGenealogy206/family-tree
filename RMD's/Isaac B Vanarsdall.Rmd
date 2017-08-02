@@ -1,0 +1,29 @@
+---
+title: "Isaac B Vanarsdall"
+subtitle: "1786 - 1866"
+knit: (function(inputFile, encoding) { 
+      out_dir <- '../Isaac B Vanarsdall';
+      rmarkdown::render(inputFile,
+                        encoding=encoding, 
+                        output_file=file.path(dirname(inputFile), out_dir, 'Biography.PDF')) })
+output: pdf_document
+urlcolor: blue
+---
+
+```{r global_options, include=FALSE}
+knitr::opts_chunk$set(echo=FALSE)
+```
+
+##Immediate Family
+* Father: UNKNOWN
+* Mother: UNKNOWN
+* spouse: 
+    1. [Ann Coulter](../Ann Coulter/Biography.PDF) (b. 1774)
+* Children:
+    1. [Olive C Vanarsdall](../Olive C Vanarsdall/Biography.PDF) (b. ~1813)
+
+##Bio
+
+Isaac B Vanarsdall was born in 1786, either in [Pennsylvania](Censuses/1850 Census.jpg) or in [Kentucky](Censuses/1860 Census.jpg). He [married Ann Coulter](Marriage Liscense.jpg) in 1812. Soon after, his daughter Olive was born ([her marriage license](../John McBride/Marriage Liscense.jpg)) By [1840](Censuses/Possible 1840 Census.jpg) Isaac was living with Ann and their three oldest children. By [1850](Censuses/1850 Census.jpg), the children were no longer living with them, and Isaac claimed $\$2,000$ worth of real estate. By [1860](Censuses/1860.jpg) that amount had grown to $\$3,000$, and he claimed $\$1,500$ worth of personal estate. He also [reports](Censuses/1860 Slave Schedule.jpg) owning one fourteen year old boy as a slave. Isaac [died](Executor of Will.jpg) in 1866, at age 80.
+
+There were many Isaac Vanarsdalls living in or around Mercer County, Kentucky in the early 19th century, making it difficult to say for sure what documents belonged to him and what documents belonged to the others. In an attempt to avoid including false information, I only discussed documents that referenced "Isaac B". If anyone would like to know more, there is a book called "The Dorland Enigma Solved" by Barbra A. Bath that contains genealogical information on the Vanarsdall family and supposedly contains Isaac B. Reviews online said the book is very thoroughly sourced.

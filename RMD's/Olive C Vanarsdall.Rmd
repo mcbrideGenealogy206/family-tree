@@ -1,0 +1,33 @@
+---
+title: "Olive C Vanarsdall"
+subtitle: "~1813 - ~1849"
+knit: (function(inputFile, encoding) { 
+      out_dir <- '../Olive C Vanarsdall';
+      rmarkdown::render(inputFile,
+                        encoding=encoding, 
+                        output_file=file.path(dirname(inputFile), out_dir, 'Biography.PDF')) })
+output: pdf_document
+urlcolor: blue
+---
+
+```{r global_options, include=FALSE}
+knitr::opts_chunk$set(echo=FALSE)
+```
+
+##Immediate Family
+* Father: [Isaac B Vanarsdall](../Isaac B Vanarsdall/Biography.PDF) (b. 1776)
+* Mother: [Ann Coulter](../Ann Coulter/Biography.PDF) (b. 1774)
+* spouse: 
+    1. [John McBride](../John McBride/Biography.PDF) (b. 1804)
+* Children:
+    1. Matilda W McBride (b. 1832)
+    2. William R McBride (b. 1834)
+    3. George C McBride (b. 1836)
+    4. Samuel H McBride (b. 1840)
+    5. [Isaac B McBride](../Isaac V McBride/Biography.PDF) (b. 1842)
+    5. Syrena F McBride (b. 1845)
+    6. Nancy Bell McBride (b. 1849)
+
+##Bio
+
+Olive C Vanarsdall was born between [1812](../Isaac B Vanarsdall/Marriage Liscense.jpg) and [1820](../John McBride/Censuses/1840 Census.jpg), likely in Kentucky, to Isaac B and Ann McBride. In 1831 she [married](../John McBride/Marriage Liscence.jpg) John McBride, who was 27 at the time. By [1840](../John McBride/Censuses/1840 Census.jpg) Olive and John were living together in Mercer County, Kentucky with their first five children. Olive does not appear on the [1850 census](../John McBride/Censuses/1850 Census.jpg), so she must have passed away after giving birth to Nancy in 1849. She would have only been approximately 36.

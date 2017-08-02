@@ -1,0 +1,27 @@
+---
+title: "Ann Coulter"
+subtitle: "1774 - ?"
+knit: (function(inputFile, encoding) { 
+      out_dir <- '../Ann Coulter';
+      rmarkdown::render(inputFile,
+                        encoding=encoding, 
+                        output_file=file.path(dirname(inputFile), out_dir, 'Biography.PDF')) })
+output: pdf_document
+urlcolor: blue
+---
+
+```{r global_options, include=FALSE}
+knitr::opts_chunk$set(echo=FALSE)
+```
+
+##Immediate Family
+* Father: John Coulter
+* Mother: UNKNOWN
+* spouse: 
+    1. [Isaac B Vanarsdall](../Isaac B Vanarsdall/Biography.PDF) (b. 1776)
+* Children:
+    1. [Olive C Vanarsdall](../Olive C Vanarsdall/Biography.PDF) (b. ~1813)
+
+##Bio
+
+Ann Coulter was [born in 1774](../Isaac B Vanarsdall/Censuses/1850 Census.jpg) to John Coulter in Kentucky. She [married](../Isaac B Vanarsdall/Marriage Liscense.jpg) Isaac B Vanarsdall in 1812, and their daughter Olive was born soon after. By [1840](../Isaac B Vanarsdall/Censuses/Possible 1840 Census.jpg) she, her husband, and three of their children were living together in Mercer County, Kentucky. By [1850](../Isaac B Vanarsdall/Censuses/1850 Census.jpg) she and Isaac were living alone. By [1860](../Isaac B Vanarsdall/Censuses/1860 Slave Schedule.jpg), they had a fourteen year old male slave.
