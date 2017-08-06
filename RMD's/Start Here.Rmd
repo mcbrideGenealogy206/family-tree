@@ -22,18 +22,18 @@ I Included bios in pdf form to summarize the information contained in each perso
 #### Immediate Family Section
 If the handwriting on old documents was hard to read, I put a question mark next to my best guess at the hard-to-read part of their name. Two question marks means that I really couldn't read it at all and just went with how Ancestry.com's handwriting recognition software labeled it.
 
-##LINKS:
+##Links:
 
-Links in this family tree will appear in <span style="color:blue">blue</span>. Most of these links will be to documents that I uploaded. Some of them will be to external websites. For cybersecurity reasons I try to make clear when a link will take you to an external website. Occasionally links will break because of something I did. If you find a link that doesn't work, send me and email describing which link won't work and I'll fix it.
+Links in this family tree will appear in <span style="color:blue">blue</span>. Most of these links will be to documents that I uploaded. Some of them will be to external websites. For cybersecurity reasons I try to make clear when a link will take you to an external website. Occasionally links will break because of something I did. If you find a link that doesn't work, send me an email describing which link won't work and I'll fix it.
 
-## repository:
+## Repository:
 
 Documents in the [repository](https://github.com/mcbrideGenealogy206/family-tree) are organized by person. Each person's folder contains any documents I could find relating to that person, and a biography summarizing what I have found.
 
 #### CENSUSES
 
-In order to save memory, I did not want to upload twenty copies of the same census to the tree. To accomplish this, for each census, I only added it to the person listed as head of household. This means that if you are trying to find a census containing a wife or a child, you must go to the father's page. There are exceptions to this rule. For example, Isaac V. McBride was staying with a man named Warner Philip when the 1860 census was taken. Since Mr.Phillip is not part of this family, I included that census in Isaac's file.
+In order to save memory, I did not want to upload twenty copies of the same census to the tree. To accomplish this, for each census, I only added it to the person listed as head of household. This means that if you are trying to find a census containing a wife or a child, you must go to the father's page. There are exceptions to this rule. For example, Isaac V. McBride was staying with a man named Warner Philip when the 1860 census was taken. Since Mr.Philip is not part of this family, I included that census in Isaac's file.
 
 #### RMD's file
 
-You can ignore this file. It just contains the markdown files I used to make this pdf and the bio pdf's.
+You can ignore this file. It just contains the markdown files I used to make this page and the bio pdf's.

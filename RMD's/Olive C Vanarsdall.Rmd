@@ -17,7 +17,7 @@ knitr::opts_chunk$set(echo=FALSE)
 ##Immediate Family
 * Father: [Isaac B Vanarsdall](../Isaac B Vanarsdall/Biography.PDF) (b. 1776)
 * Mother: [Ann Coulter](../Ann Coulter/Biography.PDF) (b. 1774)
-* spouse: 
+* Spouse: 
     1. [John McBride](../John McBride/Biography.PDF) (b. 1804)
 * Children:
     1. Matilda W McBride (b. 1832)

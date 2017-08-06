@@ -83,7 +83,7 @@ function linkCoord(i){
 	output = output.concat(String(people[i].y + 15));
 	return output;
 }
-people.push(new person("Elmer Evrett McBride", "m", "", "Imboden, AR", false),//0
+people.push(new person("Elmer Everett McBride", "m", "", "Imboden, AR", false),//0
 	new person("Thomas Franklin McBride", "m", "", "Colusa County, CA", false),//1
 	new person("Rebecca Margret Weir", "f", "", "Arkansas", false),//2
 	new person("Isaac V McBride", "m", "1842-1913", "Boyle County, Kentucy", true),//3
