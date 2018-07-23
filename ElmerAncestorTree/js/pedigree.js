@@ -1,7 +1,7 @@
 /* pedigree.js */
 /* most of the code written by Ben Crowder */
 
-var linelength = 150;
+var linelength = 200;
 
 function person(name, gender, lifespan, place, hasLink) {
 	this.x = 100;
@@ -51,12 +51,12 @@ function person(name, gender, lifespan, place, hasLink) {
 
 	this.isFatherOf = function(child, gen) {
 		this.x = child.x + linelength;
-		this.y = child.y - (450 / Math.pow(2,gen));//numerator was 250
+		this.y = child.y - (1000 / Math.pow(2,gen));//numerator was 250
 	}
 
 	this.isMotherOf = function(child, gen) {
 		this.x = child.x + linelength;
-		this.y = child.y + (450 / Math.pow(2,gen)); //was child.y + (250 / gen);
+		this.y = child.y + (1000 / Math.pow(2,gen)); //was child.y + (250 / gen);
 	}
 
 	this.isMarriedTo = function(spouse) {
@@ -102,7 +102,7 @@ people.push(new person("Elmer Everett McBride", "m", "", "Imboden, AR", false),/
 	new person("Margaret Carrigan", "f", "", "",false),//16
 	new person("David McBride", "m", "1784-1852", "North Carolina", false),//17
 	new person("Eleanor Ridgeway", "f", "1784-1847", "North Carolina", false),//18
-	new person("William Carrigan", "m", "", "", false),//19
+	new person("William Carrigan", "m", "1760-1844", "", false),//19
 	new person("Catherine", "f", "", "", false)//20
 );
 
@@ -118,8 +118,8 @@ $(document).ready(function() {
 		for (var p in people) { people[p].context = context; }
 
 		// Base point
-		people[0].x = 150;
-		people[0].y = 500;     //was 250
+		people[0].x = 50;
+		people[0].y = 1050;     //was 250
 
 		initFamily(people[0], people[1], people[2], 1);//modified all generations. origionally gen 2
 		initFamily(people[1], people[3], people[4], 2);
