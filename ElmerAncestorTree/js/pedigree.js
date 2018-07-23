@@ -87,13 +87,23 @@ people.push(new person("Elmer Everett McBride", "m", "", "Imboden, AR", false),/
 	new person("Thomas Franklin McBride", "m", "", "Colusa County, CA", false),//1
 	new person("Rebecca Margret Weir", "f", "", "Arkansas", false),//2
 	new person("Isaac V McBride", "m", "1842-1913", "Boyle County, Kentucy", true),//3
-	new person("Francis Minton", "f", "", "Tennessee", false),//4
+	new person("Frances Minton", "f", "", "Tennessee", false),//4
 	new person("John McBride", "m", "1804-1860", "Kentucky", true),//5
 	new person("Olive C Vanarsdall", "f", "1813-1839", "Kentucky", true),//6
 	new person("Isaac B Vanarsdall", "m", "1786-1866", "Pennsylvania", true),//7
 	new person("Ann Coulter", "f", "1784-?", "Kentucky", true),//8
 	new person("John Coulter", "m", "", "", true),//9
-	new person("Unknown", "f", "", "", false)//10
+	new person("Unknown", "f", "", "", false),//10
+	new person("George Franklin Weir", "m", "1846-1903", "Arkansas", false),//11
+	new person("Martha J Smith", "f", "1853-?", "Arkansas", false),//12
+	new person("James Adam Weir","m", "1819-1896", "Iredell County, NC", false),//13
+	new person("Sarah Elizabeth Sloan","f", "1820-1885", "Iredell County, NC", false),//14
+	new person("James Wier","m","","",false),//15
+	new person("Margaret Carrigan", "f", "", "",false),//16
+	new person("David McBride", "m", "1784-1852", "North Carolina", false),//17
+	new person("Eleanor Ridgeway", "f", "1784-1847", "North Carolina", false),//18
+	new person("William Carrigan", "m", "", "", false),//19
+	new person("Catherine", "f", "", "", false)//20
 );
 
 $(document).ready(function() {
@@ -116,7 +126,11 @@ $(document).ready(function() {
 		initFamily(people[3], people[5], people[6], 3);
 		initFamily(people[6], people[7], people[8], 4);
 		initFamily(people[8], people[9], people[10], 5);
-
+		initFamily(people[2], people[11], people[12], 2);
+    initFamily(people[11], people[13], people[14], 3);
+    initFamily(people[13], people[15], people[16], 4);
+    initFamily(people[5], people[17], people[18], 4);
+    initFamily(people[16], people[19], people[20], 5);
 		for (var p in people) { people[p].draw(); }
 	}
 });
